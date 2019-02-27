@@ -10,7 +10,38 @@ body
     padding: 0 10px;
 }
 
+body.psy
+{
+    background-color: magenta
+}
+
 h1, h2, h3
 {
     line-height: 1.2;
+}
+
+.psy p
+{
+    color: blue;
+    font-family: Papyrus, serif;
+}
+
+.psy h1,
+.psy h2,
+.psy h3
+{
+    color: green;
+    font-family: "Comic Sans", sans-serif;
+}
+
+#psycho
+{
+    position: fixed;
+    top:10px;
+    right:10px;
+}
+
+#normal
+{
+    display: none;
 }
